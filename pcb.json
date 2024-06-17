@@ -1,6 +1,6 @@
 {
     "name": "MrHat",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "layers": [
         "F.Cu",
         "In1.Cu",

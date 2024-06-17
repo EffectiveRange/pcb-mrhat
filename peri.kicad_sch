@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Effective Range - MrHAT")
-		(date "2024-04-19")
-		(rev "1.9.0")
+		(date "2024-06-17")
+		(rev "1.10.0")
 		(company "Effective Range Kft.")
 		(comment 1 "visit https://creativecommons.org/licenses/by/4.0/")
 		(comment 2 "is licensed under CC BY 4.0. To view a copy of this license,")

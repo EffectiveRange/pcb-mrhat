@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Effective Range: MrHat")
-		(date "2024-04-19")
-		(rev "1.9.0")
+		(date "2024-06-17")
+		(rev "1.10.0")
 		(company "Effective Range Kft.")
 		(comment 1 "visit https://creativecommons.org/licenses/by/4.0/")
 		(comment 2 "is licensed under CC BY 4.0. To view a copy of this license,")
@@ -36491,7 +36491,7 @@
 		(layer "F.SilkS")
 		(uuid "aae5de97-f466-447e-9907-3ed5ad28ae9e")
 	)
-	(gr_text "MrHat v1.9.0"
+	(gr_text "MrHat v1.10.0"
 		(at 108.2802 96.4692 90)
 		(layer "B.Cu")
 		(uuid "fd291d83-c04b-4729-97af-015d31cf7ec8")
