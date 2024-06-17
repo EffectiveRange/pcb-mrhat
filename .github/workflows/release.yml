@@ -1,0 +1,62 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# GitHub recommends pinning actions to a commit SHA.
+# To get a newer version, you will need to update the SHA.
+# You can also reference a tag or branch, but the action may change without warning.
+
+name: CI/CD
+
+on:
+  push:
+      branches: main
+      tags: v*.*.*
+
+  pull_request:
+      types:
+          - synchronize
+          - opened
+          - reopened
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.sha }}
+  cancel-in-progress: true
+    
+jobs:
+  create_release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      discussions: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Build PCB
+        uses: devcontainers/ci@v0.3
+        with:
+          subFolder: "${{github.workspace}}"
+          push: never
+          runCmd: rm -rf  /workspaces/pcb-mrhat/build &&  mkdir /workspaces/pcb-mrhat/build && cd /workspaces/pcb-mrhat/build  && pcb-build ../
+      - name: Upload test logs if tests failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Logs
+          path: build/*-[de]rc.json
+          if-no-files-found: warn
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+          files: |
+            build/*
+
+

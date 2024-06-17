@@ -1,0 +1,33 @@
+{
+    "name": "Kicad Dev Container",
+    "image": "effectiverange/devc-pcb:latest",
+    "forwardPorts": [],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/bin/bash"
+                    }
+                }
+            },
+            "extensions": [
+                "ms-python.python",
+                "github.vscode-github-actions"
+            ]
+        }
+    },
+    "mounts": [
+        {
+            "source": "/tmp",
+            "target": "/tmp",
+            "type": "bind"
+        }
+    ],
+    "remoteUser": "kicad",
+    "remoteEnv": {
+        "EDITOR": "code -w",
+        "VISUAL": "code -w"
+    }
+}
