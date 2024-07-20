@@ -3525,16 +3525,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 127) (xy 240.03 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7290b634-cddc-4d2d-a9e8-bc571e1371d3")
-	)
-	(wire
-		(pts
 			(xy 92.71 149.86) (xy 115.57 149.86)
 		)
 		(stroke
@@ -4255,16 +4245,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 129.54) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9911dae-c11a-4a29-bdf5-44a2b1986aca")
-	)
-	(wire
-		(pts
 			(xy 234.95 25.4) (xy 234.95 58.42)
 		)
 		(stroke
@@ -4517,17 +4497,6 @@
 		)
 		(uuid "2ba4b51d-e806-491d-be2a-30f2789145ef")
 	)
-	(label "ER_HWREV_1"
-		(at 237.49 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2de89375-43ac-4c0e-8740-f186ec5e5669")
-	)
 	(label "CC1"
 		(at 35.56 49.53 180)
 		(fields_autoplaced yes)
@@ -4671,17 +4640,6 @@
 			(justify right bottom)
 		)
 		(uuid "4a3829c4-40d5-4c3d-bbbf-fec5992c4853")
-	)
-	(label "ER_HWREV_0"
-		(at 237.49 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53155817-9e43-4ee3-b4d9-9d4cbedf84be")
 	)
 	(label "~{BQ256_INT}"
 		(at 146.05 99.06 0)
@@ -7763,26 +7721,6 @@
 				(justify left)
 			)
 			(uuid "0aab3c25-42c9-4d01-b314-d9f19b6c5cdb")
-		)
-		(pin "ER_HWREV_1" input
-			(at 240.03 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a965e94e-d5da-42c8-ae55-61d27c10f641")
-		)
-		(pin "ER_HWREV_0" input
-			(at 240.03 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "351da427-3fa6-4b1f-a32f-c8820b515a01")
 		)
 		(pin "GP16" input
 			(at 240.03 100.33 180)

@@ -15703,7 +15703,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/53f70a5b-3679-49fb-a930-7f86bae1d9a8/3aad8d81-9e70-4ee6-935a-13305670751d")
+		(sheetname "Peripheries")
+		(sheetfile "peri.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -0.635 -0.4318)
@@ -26291,7 +26294,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/53f70a5b-3679-49fb-a930-7f86bae1d9a8/7ca18d1e-e1f3-4855-b71c-667f677387ea")
+		(sheetname "Peripheries")
+		(sheetfile "peri.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -0.635 -0.4318)
