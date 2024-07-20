@@ -532,7 +532,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "(.*VDD|GND|GNDA|VBUS|PVIN|/FT260/(VCCIN|VCCIO)|\\+5V|\\+3\\.3VP?)"
+        "pattern": "(.*VDD|GND|.*VBAT|GNDA|VBUS|PVIN|/FT260/(VCCIN|VCCIO)|\\+5V|\\+3\\.3VP?)"
       },
       {
         "netclass": "Default",
