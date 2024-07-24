@@ -6501,7 +6501,7 @@
 				)
 			)
 		)
-		(property "Value" "976"
+		(property "Value" "1k"
 			(at 222.25 82.55 90)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF9760X"
+		(property "MPN" "ERJ-2RKF1001X"
 			(at 222.25 86.36 0)
 			(effects
 				(font
@@ -6554,7 +6554,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierLink" "https://digikey.hu/en/products/detail/panasonic-electronic-components/ERJ-2RKF9760X/192522?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXABYAGANjJAF18AHAFyhAGVmAnASwDsA5iAC%2B%2BAMzwQSSGix5CJcGDEQGIFm069BI-GCqTpsnPiKRSYgJxgArAA56TVpA7d%2BQ0eADstaFJQYJgrmIGRgYD5wahouWu66IDAUdjaGAXKmipZeVAAEAPIAFgC2mI7qziAAqnw8zPnIALLYqJgArlzYCQC0vojpQWakdnZUlhT0nt0QfkaB8kPgE3TCq0A"
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/panasonic-electronic-components/ERJ-2RKF1001X/79729?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbXDBggF18AHAFyhAGU6AnASwDsBzEAX3xgATAE4I0EEkhoseQiRAwxAVgDsIaiHqMWHHv3xCADAA5l8SSgw58RSKTAACANYB5ABYBbTBtoNIIACqnOx0rsgAstiomACurNgGIAC04ohWsrYKYEYaAikALBZSMjby9iAmJgBsIrmUfI1AA"
 			(at 222.25 86.36 0)
 			(effects
 				(font
