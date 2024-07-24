@@ -14,166 +14,6 @@
 		(comment 3 "License: MrHAT © 2024 by Ferenc Nandor Janky & Attila Gombos")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -580,6 +420,203 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4391,28 +4428,22 @@
 		(uuid "04c3f0d1-77a2-4af2-b855-39040bcde20e")
 	)
 	(junction
-		(at 185.42 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07bd2de1-7e2b-4a43-9ed7-52ba503bf97a")
-	)
-	(junction
 		(at 86.36 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d864caa-7407-47b5-aa74-a190ce6eb134")
 	)
 	(junction
-		(at 140.97 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "181dd3b7-d37b-4b75-937f-37a31f4d20e2")
-	)
-	(junction
 		(at 29.21 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b7699c2-7ddc-43b6-8c59-ba9f30d5ab24")
+	)
+	(junction
+		(at 148.59 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23e77109-cd1b-47b8-ae2f-7dff61a291ec")
 	)
 	(junction
 		(at 110.49 96.52)
@@ -4425,6 +4456,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c97472f-2574-4219-a150-6e0d2482c96f")
+	)
+	(junction
+		(at 137.16 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a1e6d8-e157-429b-8f83-2c03603ef421")
 	)
 	(junction
 		(at 86.36 85.09)
@@ -4845,16 +4882,6 @@
 		)
 		(uuid "126bcd12-e5a8-49af-8f97-7fe49dff3e13")
 	)
-	(wire
-		(pts
-			(xy 88.9 55.88) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146d2a47-d09f-484b-b2b0-3549ad580dfe")
-	)
 	(bus
 		(pts
 			(xy 91.44 83.82) (xy 91.44 88.9)
@@ -4897,6 +4924,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 148.59) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8a0c9-552b-4d18-ae47-44475570027f")
+	)
+	(wire
+		(pts
+			(xy 137.16 147.32) (xy 137.16 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef17ad2-e14d-428b-a404-2b008dc8d81a")
+	)
+	(wire
+		(pts
 			(xy 86.36 90.17) (xy 86.36 92.71)
 		)
 		(stroke
@@ -4914,6 +4961,16 @@
 			(type default)
 		)
 		(uuid "269c087c-9819-4ec9-a051-39f57e8aff9c")
+	)
+	(wire
+		(pts
+			(xy 128.27 139.7) (xy 137.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29416771-3468-4ac3-9938-5d16ebc6579b")
 	)
 	(wire
 		(pts
@@ -4944,6 +5001,16 @@
 			(type default)
 		)
 		(uuid "2f6e495c-dfe4-46d2-a501-33a40a254a25")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c352fe-f510-4ff0-a0c4-dc8d5cfa9341")
 	)
 	(wire
 		(pts
@@ -5107,13 +5174,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 185.42 82.55)
+			(xy 148.59 151.13) (xy 148.59 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59e47cdf-b5d1-476f-a996-db06d1e442f0")
+		(uuid "58e852cc-6e7c-4fe0-afac-619f41b0390b")
 	)
 	(wire
 		(pts
@@ -5137,13 +5204,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 58.42) (xy 83.82 58.42)
+			(xy 71.12 58.42) (xy 68.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63168ba2-12a7-4cc2-8ba2-33c04fdf5b83")
+		(uuid "66b48e4f-0fda-42bb-bd99-6b7e3a765958")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68aacd4e-b829-428f-a299-61bf11cd1697")
 	)
 	(wire
 		(pts
@@ -5184,6 +5261,16 @@
 			(type default)
 		)
 		(uuid "6e8174c0-d583-449b-983a-1554e204e11c")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7095dd52-348f-48a5-9201-f551d751e4ab")
 	)
 	(bus
 		(pts
@@ -5234,6 +5321,26 @@
 			(type default)
 		)
 		(uuid "7fdc8632-56e6-4cc1-affb-8c58b963ed70")
+	)
+	(wire
+		(pts
+			(xy 148.59 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802029d9-f637-488c-9abe-f584aff3cd4d")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 148.59 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802d55a8-6a5c-4039-a2df-f9279192ba47")
 	)
 	(wire
 		(pts
@@ -5294,26 +5401,6 @@
 			(type default)
 		)
 		(uuid "96f4fa0e-8bd4-47fc-b4d8-6c8597a3c1bb")
-	)
-	(wire
-		(pts
-			(xy 185.42 82.55) (xy 185.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997f4809-2129-43d3-bf68-bfd48bfb873f")
-	)
-	(wire
-		(pts
-			(xy 194.31 69.85) (xy 194.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8cc8e0-1875-4703-99fd-765cb2ceeca3")
 	)
 	(wire
 		(pts
@@ -5427,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54e081d-f1bf-450f-a4df-6a011f68c0a0")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 144.78 93.98)
 		)
 		(stroke
@@ -5454,26 +5551,6 @@
 			(type default)
 		)
 		(uuid "b72cf258-0d08-46d7-bd08-d491704f43d9")
-	)
-	(wire
-		(pts
-			(xy 194.31 82.55) (xy 185.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d1e62f-85af-4c9a-ab53-9fa8fb3803e9")
-	)
-	(wire
-		(pts
-			(xy 185.42 68.58) (xy 185.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc390b7b-b940-4df0-8408-4883ae1f3740")
 	)
 	(wire
 		(pts
@@ -5607,13 +5684,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 194.31 80.01)
+			(xy 148.59 133.35) (xy 148.59 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfde414b-a812-4c4a-92bd-aa99972355b8")
+		(uuid "dfe3cfc7-9ae9-454a-8507-20ffc38fd4dc")
 	)
 	(wire
 		(pts
@@ -5760,6 +5837,18 @@
 		(uuid 3375709e-c04d-4314-bac0-391dc5dda205)
 	)
 	(rectangle
+		(start 100.33 119.38)
+		(end 168.91 157.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 76977e8b-e07d-46f6-ac91-3831468a263d)
+	)
+	(rectangle
 		(start 168.91 19.05)
 		(end 269.24 95.25)
 		(stroke
@@ -5795,10 +5884,10 @@
 		)
 		(uuid e922ae9d-5fc0-408d-8709-dcff5e60d95d)
 	)
-	(text_box "Mode and HW Rev. encoding\n\nDevice type encoding can be implemented with this\ninput if needed. Otherwise can be used as a\ngeneral purpose open drain line \ndue to the pull up resistor.\n\nSimple HAT HW rev encoding:\n0 0 - Rev 1.X (initial release)\n\nNOTE: the HW revision must stay the same unless some breaking change is introduced"
+	(text_box "Mode and HW Rev. encoding\n\nDevice type encoding can be implemented with this\ninput if needed. Otherwise can be used as a\ngeneral purpose open drain line for e.g. \ninterrupts due to the pull up resistor."
 		(exclude_from_sim no)
 		(at 217.17 63.5 0)
-		(size 41.91 31.75)
+		(size 41.91 21.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -5827,6 +5916,19 @@
 			(justify left bottom)
 		)
 		(uuid "0f821bdc-8955-4d27-a3e8-a0f77844bd3f")
+	)
+	(text "CE Push-Pull to\nOpen-Drain"
+		(exclude_from_sim no)
+		(at 99.822 135.128 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0b7c79-22ac-41a1-8986-b4c1fe04590f")
 	)
 	(text "Audible Buzzer"
 		(exclude_from_sim no)
@@ -6103,18 +6205,6 @@
 		)
 		(uuid "2f28eac5-afaf-4f26-9440-45eef3de8f24")
 	)
-	(hierarchical_label "ER_HWREV_1"
-		(shape input)
-		(at 185.42 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3347da6a-bfa4-406b-b939-c5a767ede011")
-	)
 	(hierarchical_label "PWM0"
 		(shape input)
 		(at 191.77 129.54 180)
@@ -6138,6 +6228,18 @@
 			(justify left)
 		)
 		(uuid "466b4bdd-98d9-4d32-b750-0c8a249ca0cc")
+	)
+	(hierarchical_label "CE_PI"
+		(shape input)
+		(at 128.27 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53f6ec05-2f13-4740-9261-0667de963a9c")
 	)
 	(hierarchical_label "ICSP_EXT{~{MCLR} VDD DAT CLK}"
 		(shape passive)
@@ -6163,9 +6265,33 @@
 		)
 		(uuid "690b0d46-9af6-4857-bc24-e6459589da79")
 	)
+	(hierarchical_label "CHG_DISA"
+		(shape input)
+		(at 157.48 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b21d3d6-7a85-4b56-8c2c-8dbad07dc825")
+	)
+	(hierarchical_label "NCT_TH_1"
+		(shape passive)
+		(at 54.61 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "718fd560-b584-4b68-b713-33f2c1be3fe8")
+	)
 	(hierarchical_label "PIC_RC3"
 		(shape input)
-		(at 48.26 87.63 180)
+		(at 48.26 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6177,7 +6303,7 @@
 	)
 	(hierarchical_label "SCL_EXT"
 		(shape output)
-		(at 88.9 58.42 0)
+		(at 71.12 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6186,18 +6312,6 @@
 			(justify left)
 		)
 		(uuid "90c8fdeb-82be-4138-bc87-7297880fb65b")
-	)
-	(hierarchical_label "ER_HWREV_0"
-		(shape input)
-		(at 194.31 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bec0c2c-e19b-46fc-9186-9ca466856933")
 	)
 	(hierarchical_label "GP26"
 		(shape input)
@@ -6225,7 +6339,7 @@
 	)
 	(hierarchical_label "SDA_EXT"
 		(shape bidirectional)
-		(at 88.9 55.88 0)
+		(at 71.12 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6234,6 +6348,18 @@
 			(justify left)
 		)
 		(uuid "b35c0bd5-70be-46ce-8a37-cdb69374683f")
+	)
+	(hierarchical_label "NCT_TH_2"
+		(shape passive)
+		(at 54.61 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c04263df-76ef-4c3a-adff-304ba8cd14e7")
 	)
 	(hierarchical_label "I2S_DIN"
 		(shape input)
@@ -6249,7 +6375,7 @@
 	)
 	(hierarchical_label "PWM1"
 		(shape input)
-		(at 48.26 85.09 180)
+		(at 48.26 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6396,6 +6522,130 @@
 			(project "power"
 				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0b36a1-95b6-4e91-bf5b-d0c7118a6159")
+		(property "Reference" "R6"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.382 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "63mW"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1004X"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/panasonic-electronic-components/ERJ-2RKF1004X/79728"
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufaturer" ""
+			(at 137.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaec2f20-a958-4aff-9b81-56f3815d935c")
+		)
+		(pin "2"
+			(uuid "75833da1-e4b4-4171-a22d-dd9eb0bf6801")
+		)
+		(instances
+			(project "effectiveRangeHat_simple"
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6624,6 +6874,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 148.59 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f24dfa9-c553-495d-9586-5eeb3567ae2e")
+		(property "Reference" "#PWR053"
+			(at 148.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e645ad8a-621d-4e85-87d6-75ac0013e049")
+		)
+		(instances
+			(project "effectiveRangeHat_simple"
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 210.82 39.37 0)
 		(unit 1)
@@ -6684,6 +7000,118 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 227.33 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aad8d81-9e70-4ee6-935a-13305670751d")
+		(property "Reference" "Q1"
+			(at 233.68 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD13381F4"
+			(at 233.68 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "effectiveRangeHat:YJC0003A_TEX"
+			(at 232.41 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD13381F4"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/onsemi/2n7002/244345"
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufaturer" ""
+			(at 227.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c837a3b5-0744-4f65-b77f-f06b3d9066c5")
+		)
+		(pin "1"
+			(uuid "a81b1220-43bc-4efc-a6b7-a7d693a259b6")
+		)
+		(pin "3"
+			(uuid "5b226c7c-8b5a-4d2f-801f-d4cfec765f41")
+		)
+		(instances
+			(project "effectiveRangeHat_simple"
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7552,33 +7980,56 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 78.74 55.88 0)
+		(lib_id "Transistor_FET:2N7002")
+		(at 146.05 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e83b921-144c-47de-a267-a79ecbcfe885")
-		(property "Reference" "J8"
-			(at 79.375 50.8 0)
+		(uuid "7ca18d1e-e1f3-4855-b71c-667f677387ea")
+		(property "Reference" "Q2"
+			(at 152.4 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "I2C_EXT"
-			(at 79.375 53.34 0)
+		(property "Value" "CSD13381F4"
+			(at 152.4 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 78.74 55.88 0)
+		(property "Footprint" "effectiveRangeHat:YJC0003A_TEX"
+			(at 151.13 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,8 +8037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 78.74 55.88 0)
+		(property "MPN" "CSD13381F4"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,8 +8046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 78.74 55.88 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,17 +8055,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61300211121"
-			(at 78.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 78.74 55.88 0)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/onsemi/2n7002/244345"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +8065,7 @@
 			)
 		)
 		(property "Manufaturer" ""
-			(at 78.74 55.88 0)
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,240 +8073,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "deeb3ff8-105d-422f-953c-5af428453e2f")
-		)
 		(pin "2"
-			(uuid "c12b02cb-c139-4249-8469-7fd47c5a897b")
+			(uuid "4281b3c2-c0d3-4cd3-8775-a7ef6456763c")
+		)
+		(pin "1"
+			(uuid "82250a76-a48e-4228-8a61-79e94dd1ffbf")
+		)
+		(pin "3"
+			(uuid "b4ca21f2-f648-4f74-bdec-79b66c15e28f")
 		)
 		(instances
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 194.31 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8235ad46-46c9-41c7-823a-790775e4b787")
-		(property "Reference" "R34"
-			(at 196.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 196.85 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.532 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1004X"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/panasonic-electronic-components/ERJ-2RKF1004X/79728"
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 194.31 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81a9d086-d1e1-47f6-b433-ded919369af3")
-		)
-		(pin "2"
-			(uuid "022941c0-46da-44f6-83ed-303bbc69b13b")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 185.42 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b94e6f-767f-4754-af6a-8393bea8f3c9")
-		(property "Reference" "R35"
-			(at 187.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 187.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 183.642 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1004X"
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/panasonic-electronic-components/ERJ-2RKF1004X/79728"
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b157ad54-072b-4f3d-936d-929f4397ae33")
-		)
-		(pin "2"
-			(uuid "9959c4f7-d59e-4859-bc30-9e4329a9ae82")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "R1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8374,35 +8595,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 140.97 177.8 0)
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 60.96 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b919c265-4d6f-4dc0-b906-6e3f068ac55e")
-		(property "Reference" "TP7"
-			(at 142.367 173.228 0)
+		(uuid "b61ddd3e-dcdb-4f7e-bc1c-7522ec914233")
+		(property "Reference" "J7"
+			(at 62.23 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 142.367 175.768 0)
+		(property "Value" "PWR_HDR"
+			(at 62.23 51.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 146.05 177.8 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 177.8 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,8 +8638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 140.97 177.8 0)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,8 +8647,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 140.97 177.8 0)
+		(property "MPN" "61300421121"
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,8 +8656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 140.97 177.8 0)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,8 +8665,17 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierLink" ""
-			(at 140.97 177.8 0)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/w%C3%BCrth-elektronik/61300421121/4846829"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "TH"
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8684,7 @@
 			)
 		)
 		(property "Manufaturer" ""
-			(at 140.97 177.8 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,18 +8693,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "9aa94658-92a6-4cfa-89de-fe3d8dd0a06d")
+			(uuid "47975d30-0b4b-4ae5-a036-e0062dca204d")
+		)
+		(pin "2"
+			(uuid "bc41e323-9558-460d-b830-ed12b04113a4")
+		)
+		(pin "3"
+			(uuid "e0cda515-2e0b-4272-83fc-f2a96c69297c")
+		)
+		(pin "4"
+			(uuid "4ff8a884-6c10-4f22-881c-685963903b6f")
 		)
 		(instances
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "TP4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9220,71 +9451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e77d40cc-1207-4505-ab7d-9816f85e8e72")
-		(property "Reference" "#PWR072"
-			(at 185.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55e0235c-2101-4766-ad11-133aecfbdb00")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 119.38 34.29 0)
 		(unit 1)
@@ -9757,118 +9923,6 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 227.33 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbddc252-7abd-418c-85bb-e1f9b0547fb1")
-		(property "Reference" "Q1"
-			(at 233.68 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 233.68 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 232.41 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 232.41 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 227.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2N7002"
-			(at 227.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 227.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/onsemi/2n7002/244345"
-			(at 227.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 227.33 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4882bf97-58bc-46d3-bddb-8af49a59cd2a")
-		)
-		(pin "1"
-			(uuid "6ebf179f-93c7-46ce-8202-ceb7a8932920")
-		)
-		(pin "3"
-			(uuid "58056eab-c91f-4bf8-b967-95a4f9afa1d5")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

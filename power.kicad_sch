@@ -116,145 +116,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2643,6 +2504,12 @@
 		(uuid "46e24fcb-1441-4647-b653-a717977cedfe")
 	)
 	(junction
+		(at 48.26 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c4127d-2739-4f90-8933-750befd013db")
+	)
+	(junction
 		(at 113.03 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2801,6 +2668,16 @@
 			(type default)
 		)
 		(uuid "07ad97de-c327-41bb-8eec-e236dbb56863")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 118.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f560c9-c3c0-42be-abe9-93e301752f8a")
 	)
 	(wire
 		(pts
@@ -3504,6 +3381,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 114.3) (xy 48.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81332f74-7eb6-4ee2-abaa-b9b3c77ba95d")
+	)
+	(wire
+		(pts
 			(xy 36.83 180.34) (xy 36.83 182.88)
 		)
 		(stroke
@@ -3664,6 +3551,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 160.02) (xy 120.65 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c89402-f576-4a67-af24-c0d616b3dd81")
+	)
+	(wire
+		(pts
 			(xy 104.14 63.5) (xy 104.14 57.15)
 		)
 		(stroke
@@ -3694,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 48.26 121.92)
+			(xy 48.26 110.49) (xy 48.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4041,6 +3938,16 @@
 			(type default)
 		)
 		(uuid "e1451cd8-8401-4cb7-830a-a2aec953310a")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2df76c9-e3a8-47a1-a0c4-19e1d3583b7d")
 	)
 	(wire
 		(pts
@@ -4731,7 +4638,7 @@
 		(uuid "d79d8b0d-310e-4bed-a736-59796f61ee6a")
 	)
 	(label "BAT"
-		(at 48.26 119.38 0)
+		(at 48.26 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4879,6 +4786,18 @@
 		)
 		(uuid "818af0a9-2238-4f3e-8aef-7462b44ed43d")
 	)
+	(hierarchical_label "NCT_TH_2"
+		(shape passive)
+		(at 118.11 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9926f6ef-bbac-41b1-a136-7ba5efdea58d")
+	)
 	(hierarchical_label "VBUS_F"
 		(shape output)
 		(at 118.11 22.86 0)
@@ -4890,6 +4809,18 @@
 			(justify left)
 		)
 		(uuid "bf1bcc0f-0028-4f02-8645-c5af7838b089")
+	)
+	(hierarchical_label "NCT_TH_1"
+		(shape passive)
+		(at 120.65 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef2381e4-60a2-435c-8c9a-70d8c9ef6ebf")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
@@ -4926,6 +4857,18 @@
 			(justify right)
 		)
 		(uuid "f471537c-b826-407e-aa83-4aade6bffc03")
+	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 44.45 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f59371b6-c2a3-4328-8572-17910b66a145")
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
@@ -5274,94 +5217,6 @@
 			(project "power"
 				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 120.65 165.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b9ee746-21f5-4c77-88a8-1ba37130327b")
-		(property "Reference" "J4"
-			(at 118.11 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCT_BYPASS"
-			(at 103.886 164.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 120.65 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300211121"
-			(at 120.65 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 120.65 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c487922-d51f-47e3-a604-0084cac03085")
-		)
-		(pin "1"
-			(uuid "a1443341-ec86-402f-9d1e-9a3c49f2c4bc")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
-					(reference "J4")
 					(unit 1)
 				)
 			)
