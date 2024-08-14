@@ -5931,7 +5931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "29k4"
+		(property "Value" "30k1"
 			(at 135.89 179.07 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2942X"
+		(property "MPN" "ERA-2AEB3012X"
 			(at 133.35 177.8 0)
 			(effects
 				(font
@@ -9470,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5k3"
 			(at 135.89 166.37 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA-2AEB512X"
+		(property "MPN" "RT0402DRE075K3L"
 			(at 133.35 165.1 0)
 			(effects
 				(font
