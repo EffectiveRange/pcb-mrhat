@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -197,16 +200,16 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -2.89 -3.68)
-		(size 0.65 0.65)
-		(drill 0.65)
-		(layers "*.Cu" "*.Mask")
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "a716ad61-25e7-4c27-be0f-1100293ea60f")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.89 -3.68)
-		(size 0.65 0.65)
-		(drill 0.65)
-		(layers "*.Cu" "*.Mask")
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "9b03d794-441b-4f2f-bd4d-1c1807a81d42")
 	)
 	(pad "A1_B12" smd rect
@@ -287,7 +290,6 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "54890d8f-9ecc-4b37-bf5b-4b33ec9ffe5f")
 	)
 	(pad "SH2" thru_hole oval
@@ -296,7 +298,6 @@
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "9696da6d-5a3f-469f-a509-0fd7f4d1f2b9")
 	)
 	(pad "SH3" thru_hole roundrect
@@ -306,7 +307,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.102)
 		(uuid "0b983fdd-fff0-42c3-8091-ccb5546ffee0")
 	)
 	(pad "SH4" thru_hole roundrect
@@ -316,7 +316,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.102)
 		(uuid "6a50f56d-3353-4c13-928f-cbb63907cd5f")
 	)
 	(model "${KIPRJMOD}/effectiveRangeHat_simple.pretty/USB4105GFA120.step"
