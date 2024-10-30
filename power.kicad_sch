@@ -14,108 +14,6 @@
 		(comment 3 "License: MrHAT © 2024 by Ferenc Nandor Janky & Attila Gombos")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -579,164 +477,6 @@
 				)
 			)
 			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3206,6 +2946,12 @@
 		(uuid "01878142-ebab-4b8d-8553-1baf5c6131c0")
 	)
 	(junction
+		(at 231.14 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05363c7a-9bf7-443f-a20b-732b17e4ac96")
+	)
+	(junction
 		(at 243.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3308,12 +3054,6 @@
 		(uuid "787e3e6c-da8c-43ae-aadb-5e41fc77cc4c")
 	)
 	(junction
-		(at 228.6 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89dcae80-1b4c-4a4c-9ebb-47ad5e79f3c5")
-	)
-	(junction
 		(at 199.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3354,12 +3094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da863cf9-b0f3-4995-b47c-5b97f5f00412")
-	)
-	(junction
-		(at 57.15 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfb10749-4fb3-4bb4-b146-c5668f11adae")
 	)
 	(junction
 		(at 255.27 49.53)
@@ -3519,6 +3253,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 133.35) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e25a30f-c1c5-48ae-83f4-485944f5c1a0")
+	)
+	(wire
+		(pts
 			(xy 63.5 22.86) (xy 78.74 22.86)
 		)
 		(stroke
@@ -3539,7 +3283,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 133.35) (xy 228.6 133.35)
+			(xy 220.98 133.35) (xy 223.52 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3706,16 +3450,6 @@
 			(type default)
 		)
 		(uuid "39cf8029-562c-411e-9f64-3fb030b09adc")
-	)
-	(wire
-		(pts
-			(xy 228.6 133.35) (xy 228.6 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a71d871-5a0e-4299-b209-fd6b01e2edb4")
 	)
 	(wire
 		(pts
@@ -3929,7 +3663,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 138.43) (xy 228.6 152.4)
+			(xy 231.14 138.43) (xy 231.14 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4016,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "6adc82b1-e235-426f-849b-620df853ca95")
+	)
+	(wire
+		(pts
+			(xy 231.14 128.27) (xy 231.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adf7152-2228-463c-81a1-0335825dca6e")
 	)
 	(wire
 		(pts
@@ -4359,7 +4103,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 138.43) (xy 228.6 138.43)
+			(xy 220.98 138.43) (xy 231.14 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4469,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 120.65) (xy 231.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61b8450-92fc-491f-a11b-02f75d67750c")
+	)
+	(wire
+		(pts
 			(xy 267.97 95.25) (xy 267.97 93.98)
 		)
 		(stroke
@@ -4529,7 +4283,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 22.86) (xy 57.15 22.86)
+			(xy 36.83 22.86) (xy 63.5 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4626,16 +4380,6 @@
 			(type default)
 		)
 		(uuid "be1fbe28-4182-4821-bc2e-22f83db1f7ef")
-	)
-	(wire
-		(pts
-			(xy 57.15 22.86) (xy 63.5 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff54513-4b84-406e-8e97-5717b8b2adc9")
 	)
 	(wire
 		(pts
@@ -4899,16 +4643,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 24.13) (xy 57.15 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93c8023-dd42-4888-a7b4-702f78dac99b")
-	)
-	(wire
-		(pts
 			(xy 255.27 49.53) (xy 255.27 53.34)
 		)
 		(stroke
@@ -5031,7 +4765,7 @@
 	)
 	(rectangle
 		(start 160.02 110.49)
-		(end 231.14 165.1)
+		(end 248.92 165.1)
 		(stroke
 			(width 0)
 			(type dash)
@@ -6100,6 +5834,111 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0da4711e-a98a-4d7b-aa1e-b3f54d5ee362")
+		(property "Reference" "C38"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56pF"
+			(at 234.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.1052 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT1555C1H560JA02J"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/murata-electronics/GRT1555C1H560JA02J/13905039"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufaturer" ""
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad56beb9-e18c-44cb-96bf-0243e4c5c56a")
+		)
+		(pin "2"
+			(uuid "683a6ce1-ee50-4386-89d4-f8754c320133")
+		)
+		(instances
+			(project "effectiveRangeHat_simple"
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -7448,117 +7287,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 109.22 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e14c1f9-255d-43f7-919d-3479df24278e")
-		(property "Reference" "C4"
-			(at 105.41 25.781 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 28.321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "effectiveRangeHat:CAP_EEHZC1J100P"
-			(at 110.1852 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EEH-ZC1J100P"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/panasonic-electronic-components/EEH-ZC1J100P/3088071?s=N4IgTCBcDaIKJwBIFoBaBhAjAKUwBjwAUQBdAXyA"
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 109.22 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d370a3ff-7689-447d-be8a-71c097ae6f0c")
-		)
-		(pin "2"
-			(uuid "d12914be-8d48-4c58-a441-75c0d7dac3bf")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 66.04 55.88 0)
 		(unit 1)
@@ -8235,7 +7963,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 152.4 0)
+		(at 231.14 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8245,7 +7973,7 @@
 		(fields_autoplaced yes)
 		(uuid "680faf7c-b993-401d-91c6-fb9bf9c31ce9")
 		(property "Reference" "#PWR062"
-			(at 228.6 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +7982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 157.48 0)
+			(at 231.14 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +7990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 152.4 0)
+			(at 231.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +7999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 152.4 0)
+			(at 231.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 152.4 0)
+			(at 231.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,114 +8214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 57.15 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a48e3bc-859e-43db-8ccc-569e2d9c1263")
-		(property "Reference" "TP16"
-			(at 54.61 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 54.61 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 52.07 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" ""
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 57.15 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc1f1137-ccd2-49fb-add0-e9c95d570c1e")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 243.84 57.15 0)
 		(unit 1)
@@ -8717,6 +8337,103 @@
 			(project "power"
 				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbff89e-d195-4e40-a2c3-7b9a8aa0c730")
+		(property "Reference" "C4"
+			(at 113.03 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 113.03 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 110.1852 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GMC32X7R106K50N"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC32X7R106K50NT/18151155"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f904e3-27a7-4099-9d93-5325755e5c6d")
+		)
+		(pin "2"
+			(uuid "2464e54c-0d8a-4859-8ff4-0cce1008a237")
+		)
+		(instances
+			(project ""
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/d94d9111-a93b-4c7b-9c75-80efdb5e75c6"
+					(reference "C4")
 					(unit 1)
 				)
 			)
