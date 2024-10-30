@@ -393,40 +393,46 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -0.2 -0.4953)
-		(size 0.254 0.3048)
+	(pad "1" smd roundrect
+		(at -0.2 -0.6)
+		(size 0.2 0.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "24dcbb2f-c613-45fb-abfb-a491e827a3f8")
 	)
-	(pad "2" smd rect
-		(at -0.424599 0 90)
-		(size 0.254 0.6604)
+	(pad "2" smd roundrect
+		(at -0.375 0 90)
+		(size 0.25 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "7da4e374-5b8b-4b2d-a993-10988b1670e2")
 	)
-	(pad "3" smd rect
-		(at -0.2 0.4953)
-		(size 0.254 0.3048)
+	(pad "3" smd roundrect
+		(at -0.2 0.6)
+		(size 0.2 0.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "ba4c2b0c-c1f1-4d7a-989e-a11eb9b5bdff")
 	)
-	(pad "4" smd rect
-		(at 0.2 0.4953)
-		(size 0.254 0.3048)
+	(pad "4" smd roundrect
+		(at 0.2 0.6)
+		(size 0.2 0.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "5834eb5a-d7ff-4106-85ad-1cb744949d8f")
 	)
-	(pad "5" smd rect
-		(at 0.424599 0 90)
-		(size 0.254 0.6604)
+	(pad "5" smd roundrect
+		(at 0.375 0 90)
+		(size 0.25 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "babd60dd-b906-4dbc-9054-637dd62bfbbd")
 	)
-	(pad "6" smd rect
-		(at 0.2 -0.4953)
-		(size 0.254 0.3048)
+	(pad "6" smd roundrect
+		(at 0.2 -0.6)
+		(size 0.2 0.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "937585ee-26a2-45c8-a16c-4259833957fe")
 	)
 	(model "${KIPRJMOD}/effectiveRangeHat_simple.pretty/RZF0006A.stp"

@@ -14,108 +14,6 @@
 		(comment 3 "License: MrHAT © 2024 by Ferenc Nandor Janky & Attila Gombos")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -5622,16 +5520,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 177.8) (xy 140.97 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1d2c68-94cb-492a-929e-a2e72228dda2")
-	)
-	(wire
-		(pts
 			(xy 115.57 35.56) (xy 118.11 35.56)
 		)
 		(stroke
@@ -5999,16 +5887,6 @@
 			(type default)
 		)
 		(uuid "c50028e5-b76c-4de2-9e06-6786c60da81f")
-	)
-	(wire
-		(pts
-			(xy 130.81 177.8) (xy 140.97 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79e2f21-f565-4048-b544-184b955fa6db")
 	)
 	(wire
 		(pts
@@ -6418,18 +6296,6 @@
 		)
 		(uuid c0c3a579-b1e6-4616-9377-f28ddffa1581)
 	)
-	(rectangle
-		(start 116.84 160.02)
-		(end 171.45 191.77)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e922ae9d-5fc0-408d-8709-dcff5e60d95d)
-	)
 	(text "CE/5VEN Push-Pull to\nOpen-Drain"
 		(exclude_from_sim no)
 		(at 156.21 33.02 0)
@@ -6455,19 +6321,6 @@
 			(justify left bottom)
 		)
 		(uuid "398e2a43-a610-4b2e-a4c1-b729a03aca8b")
-	)
-	(text "Test points"
-		(exclude_from_sim no)
-		(at 116.84 167.64 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ac46f69-4f1a-4940-bfa4-ebbe73221278")
 	)
 	(text "Extra components \nto order (BOM only)"
 		(exclude_from_sim no)
@@ -6686,7 +6539,7 @@
 	)
 	(hierarchical_label "PIC_GPIO_RA5"
 		(shape bidirectional)
-		(at 115.57 45.72 180)
+		(at 115.57 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6782,7 +6635,7 @@
 	)
 	(hierarchical_label "PIC_GPIO_RA4"
 		(shape bidirectional)
-		(at 115.57 40.64 180)
+		(at 115.57 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7307,6 +7160,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fb57540-39d7-4ee1-a1df-ed6bb2ebb694")
 		)
@@ -7746,115 +7608,6 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 130.81 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e22d4fa-2046-41e5-8eb4-0c3f18bbbdb3")
-		(property "Reference" "TP1"
-			(at 132.207 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.207 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 135.89 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 130.81 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 130.81 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 130.81 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" ""
-			(at 130.81 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufaturer" ""
-			(at 130.81 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6363e35d-e9f6-41ba-b7f8-aab02fe7e21d")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "power"
-				(path "/b52f5336-67e9-4849-b2e8-8468917ba44d"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10155,72 +9908,6 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2fc9be7-5906-4c3d-8d8a-790364b9c29e")
-		(property "Reference" "#PWR073"
-			(at 140.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5966c90b-f121-4b60-9738-e74d6b576ab3")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6/53f70a5b-3679-49fb-a930-7f86bae1d9a8"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
