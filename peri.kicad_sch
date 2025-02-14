@@ -4574,12 +4574,6 @@
 		(uuid "34e1a032-0973-4a1d-93a1-fd9412902b43")
 	)
 	(junction
-		(at 77.47 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44decb81-048e-4cbb-8729-ce7f9b51196b")
-	)
-	(junction
 		(at 80.01 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4590,6 +4584,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53b8da39-7078-432f-99b8-c6f0a58495df")
+	)
+	(junction
+		(at 81.28 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fddeb11-8ec5-4916-bf6b-f5a17efa25da")
 	)
 	(junction
 		(at 80.01 82.55)
@@ -4620,12 +4620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f30f099-6e3a-4cf5-bab4-995196914852")
-	)
-	(junction
-		(at 77.47 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a260f1d0-b10c-4e7c-a139-e47f126b7a74")
 	)
 	(junction
 		(at 80.01 90.17)
@@ -5050,16 +5044,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 77.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19433f03-46ec-4a05-9912-13c67955e519")
-	)
-	(wire
-		(pts
 			(xy 97.79 33.02) (xy 97.79 27.94)
 		)
 		(stroke
@@ -5197,6 +5181,16 @@
 			(type default)
 		)
 		(uuid "315be826-c16f-486b-ae5b-aeb3faebb91a")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c41006-4c2c-4bd7-b7c6-5a168635acfb")
 	)
 	(wire
 		(pts
@@ -5430,16 +5424,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 77.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764fb3d5-5faf-4514-93ef-16078d22f90b")
-	)
-	(wire
-		(pts
 			(xy 223.52 60.96) (xy 217.17 60.96)
 		)
 		(stroke
@@ -5510,7 +5494,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 60.96) (xy 77.47 58.42)
+			(xy 81.28 58.42) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5587,6 +5571,16 @@
 			(type default)
 		)
 		(uuid "9bd4c432-2b00-41ee-a244-b75e35ef26bf")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c155520-1789-4d1e-a87e-89d5e2f657ea")
 	)
 	(wire
 		(pts
@@ -5870,16 +5864,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 63.5) (xy 77.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3788ad3-5acc-448d-b5ce-2b2e72b63a48")
-	)
-	(wire
-		(pts
 			(xy 93.98 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -5907,16 +5891,6 @@
 			(type default)
 		)
 		(uuid "c9d3a0f7-071a-4bfd-8f64-1e60bb78df7b")
-	)
-	(wire
-		(pts
-			(xy 77.47 58.42) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb43492b-8ca4-4c44-8c9e-7de04ee20353")
 	)
 	(wire
 		(pts
@@ -6050,16 +6024,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 68.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98a3e9d-6854-4f1c-9187-37118b4c47b4")
-	)
-	(wire
-		(pts
 			(xy 80.01 87.63) (xy 80.01 90.17)
 		)
 		(stroke
@@ -6158,16 +6122,6 @@
 		)
 		(uuid "f4d80686-c294-467c-8e12-2f86e641f24e")
 	)
-	(wire
-		(pts
-			(xy 77.47 66.04) (xy 77.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52d22df-4deb-44c7-b382-3c742b18bb0e")
-	)
 	(bus
 		(pts
 			(xy 147.32 83.82) (xy 147.32 86.36)
@@ -6247,6 +6201,16 @@
 			(type default)
 		)
 		(uuid "fb59d79a-6fc1-45d9-bfbc-b5b9ee6a2112")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc9dcf9-78ac-4870-98a6-b760170f690b")
 	)
 	(rectangle
 		(start 15.24 17.78)
@@ -6350,7 +6314,6 @@
 	)
 	(label "SPI_EXT.MOSI"
 		(at 129.54 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6361,7 +6324,6 @@
 	)
 	(label "SPI_EXT.CE0"
 		(at 129.54 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6372,7 +6334,6 @@
 	)
 	(label "SPI_EXT.SCLK"
 		(at 129.54 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6383,7 +6344,6 @@
 	)
 	(label "ICSP_EXT.CLK"
 		(at 96.52 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6394,7 +6354,6 @@
 	)
 	(label "MIC_DOUT"
 		(at 50.8 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6405,7 +6364,6 @@
 	)
 	(label "I2S_DIN"
 		(at 58.42 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6416,7 +6374,6 @@
 	)
 	(label "ICSP_EXT.DAT"
 		(at 96.52 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6427,7 +6384,6 @@
 	)
 	(label "BUZZ_N"
 		(at 229.87 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6438,7 +6394,6 @@
 	)
 	(label "Q_BASE"
 		(at 220.98 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6449,7 +6404,6 @@
 	)
 	(label "MIC_FS"
 		(at 57.15 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6460,7 +6414,6 @@
 	)
 	(label "SPI_EXT.MISO"
 		(at 129.54 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6471,7 +6424,6 @@
 	)
 	(label "SPI_EXT.CE1"
 		(at 129.54 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6482,7 +6434,6 @@
 	)
 	(label "ICSP_EXT.VDD"
 		(at 96.52 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6493,7 +6444,6 @@
 	)
 	(label "ICSP_EXT.~{MCLR}"
 		(at 96.52 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6504,7 +6454,6 @@
 	)
 	(label "MIC_CLK"
 		(at 58.42 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6516,7 +6465,6 @@
 	(hierarchical_label "I2S_FS"
 		(shape input)
 		(at 34.29 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6528,7 +6476,6 @@
 	(hierarchical_label "PWM0"
 		(shape input)
 		(at 191.77 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6540,7 +6487,6 @@
 	(hierarchical_label "PIC_GPIO_RA5"
 		(shape bidirectional)
 		(at 115.57 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6552,7 +6498,6 @@
 	(hierarchical_label "PI_5V_DIS"
 		(shape input)
 		(at 231.14 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6564,7 +6509,6 @@
 	(hierarchical_label "CE_PI"
 		(shape input)
 		(at 185.42 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6576,7 +6520,6 @@
 	(hierarchical_label "PI_5V_DIS_OD"
 		(shape output)
 		(at 222.25 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6588,7 +6531,6 @@
 	(hierarchical_label "ICSP_EXT{~{MCLR} VDD DAT CLK}"
 		(shape passive)
 		(at 104.14 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6600,7 +6542,6 @@
 	(hierarchical_label "I2S_CLK"
 		(shape input)
 		(at 34.29 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6612,7 +6553,6 @@
 	(hierarchical_label "CHG_DISA"
 		(shape input)
 		(at 189.23 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6623,8 +6563,7 @@
 	)
 	(hierarchical_label "GP5"
 		(shape input)
-		(at 71.12 66.04 0)
-		(fields_autoplaced yes)
+		(at 68.58 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6636,7 +6575,6 @@
 	(hierarchical_label "PIC_GPIO_RA4"
 		(shape bidirectional)
 		(at 115.57 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6648,7 +6586,6 @@
 	(hierarchical_label "SCL_EXT"
 		(shape output)
 		(at 35.56 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6660,7 +6597,6 @@
 	(hierarchical_label "GP26"
 		(shape input)
 		(at 34.29 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6672,7 +6608,6 @@
 	(hierarchical_label "PIC_GPIO_RA0"
 		(shape bidirectional)
 		(at 115.57 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6681,10 +6616,20 @@
 		)
 		(uuid "a0bf7dc2-b82a-4d4b-b829-662f20d0c927")
 	)
+	(hierarchical_label "~{MCLR_PI}"
+		(shape input)
+		(at 68.58 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab8d4ba6-2c7e-45c4-b66b-d8a5581d52af")
+	)
 	(hierarchical_label "SPI_EXT{MOSI MISO SCLK CE0 CE1}"
 		(shape bidirectional)
 		(at 137.16 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6696,7 +6641,6 @@
 	(hierarchical_label "GP4"
 		(shape input)
 		(at 54.61 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6708,7 +6652,6 @@
 	(hierarchical_label "~{EXT_IRQ}"
 		(shape output)
 		(at 35.56 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6720,7 +6663,6 @@
 	(hierarchical_label "SDA_EXT"
 		(shape bidirectional)
 		(at 35.56 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,7 +6674,6 @@
 	(hierarchical_label "PIC_GPIO_RA1"
 		(shape bidirectional)
 		(at 115.57 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6744,7 +6685,6 @@
 	(hierarchical_label "I2S_DIN"
 		(shape input)
 		(at 34.29 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6756,7 +6696,6 @@
 	(hierarchical_label "PWM1"
 		(shape input)
 		(at 34.29 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6768,7 +6707,6 @@
 	(hierarchical_label "I2S_DOUT"
 		(shape input)
 		(at 34.29 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7426,7 +7364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-883"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
 			(at 232.41 131.445 0)
 			(effects
 				(font
@@ -7835,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PPPC202LFBN-RC"
+		(property "MPN" "61304021821"
 			(at 45.72 168.91 0)
 			(effects
 				(font
@@ -7844,7 +7782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sullins Connector Solutions"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 45.72 168.91 0)
 			(effects
 				(font
@@ -9915,7 +9853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 66.04 0)
+		(at 81.28 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9923,7 +9861,7 @@
 		(dnp no)
 		(uuid "f6fef5aa-5f34-4b41-b5c7-ba3cd1470543")
 		(property "Reference" "#PWR079"
-			(at 77.47 72.39 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +9870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 71.755 0)
+			(at 81.28 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9941,7 +9879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 66.04 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +9888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 66.04 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,7 +9897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 66.04 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

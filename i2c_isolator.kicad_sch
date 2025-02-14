@@ -1406,7 +1406,6 @@
 	)
 	(label "SDA_PU"
 		(at 187.96 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1418,7 +1417,6 @@
 	)
 	(label "SCL_PU"
 		(at 187.96 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1431,7 +1429,6 @@
 	(hierarchical_label "PIC_GPIO_RA0"
 		(shape bidirectional)
 		(at 96.52 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1443,7 +1440,6 @@
 	(hierarchical_label "PIC_GPIO_RA1"
 		(shape bidirectional)
 		(at 96.52 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,7 +1451,6 @@
 	(hierarchical_label "SCL_PI"
 		(shape bidirectional)
 		(at 96.52 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +1462,6 @@
 	(hierarchical_label "ICSP_~{OE}"
 		(shape input)
 		(at 96.52 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,7 +1473,6 @@
 	(hierarchical_label "I2C_SEL"
 		(shape input)
 		(at 204.47 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1484,6 @@
 	(hierarchical_label "PIC_ICSPDAT"
 		(shape bidirectional)
 		(at 96.52 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1495,6 @@
 	(hierarchical_label "PIC_ICSPCLK"
 		(shape bidirectional)
 		(at 166.37 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,7 +1506,6 @@
 	(hierarchical_label "RA0_ICSPDAT"
 		(shape bidirectional)
 		(at 96.52 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,7 +1517,6 @@
 	(hierarchical_label "SCL_HAT"
 		(shape bidirectional)
 		(at 168.91 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1539,7 +1528,6 @@
 	(hierarchical_label "SDA_PI"
 		(shape bidirectional)
 		(at 168.91 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1551,7 +1539,6 @@
 	(hierarchical_label "RA1_ICSPCLK"
 		(shape bidirectional)
 		(at 96.52 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1563,7 +1550,6 @@
 	(hierarchical_label "SDA_HAT"
 		(shape bidirectional)
 		(at 168.91 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

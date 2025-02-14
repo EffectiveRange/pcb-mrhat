@@ -1508,7 +1508,6 @@
 	)
 	(label "VCCIN"
 		(at 213.36 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1519,7 +1518,6 @@
 	)
 	(label "VCCIN"
 		(at 226.06 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,7 +1528,6 @@
 	)
 	(label "DP"
 		(at 44.45 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1541,7 +1538,6 @@
 	)
 	(label "VOUT3V3"
 		(at 198.12 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1552,7 +1548,6 @@
 	)
 	(label "DM"
 		(at 76.2 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1563,7 +1558,6 @@
 	)
 	(label "VCCIO"
 		(at 198.12 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,7 +1568,6 @@
 	)
 	(label "VCCIO"
 		(at 109.22 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,7 +1578,6 @@
 	)
 	(label "VOUT3V3"
 		(at 124.46 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,7 +1588,6 @@
 	)
 	(label "D_FT260+"
 		(at 114.3 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,7 +1598,6 @@
 	)
 	(label "VCCIN"
 		(at 142.24 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,7 +1608,6 @@
 	)
 	(label "VCCIN"
 		(at 46.99 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1629,7 +1618,6 @@
 	)
 	(label "D_FT260-"
 		(at 114.3 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1640,7 +1628,6 @@
 	)
 	(label "DM"
 		(at 44.45 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1651,7 +1638,6 @@
 	)
 	(label "~{RESET}"
 		(at 123.19 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,7 +1648,6 @@
 	)
 	(label "VCCIO"
 		(at 147.32 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1673,7 +1658,6 @@
 	)
 	(label "DP"
 		(at 76.2 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1684,7 +1668,6 @@
 	)
 	(label "VCCIO"
 		(at 186.69 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1695,7 +1678,6 @@
 	)
 	(label "~{RESET}"
 		(at 118.11 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,7 +1688,6 @@
 	)
 	(label "VOUT3V3"
 		(at 186.69 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1699,6 @@
 	(hierarchical_label "DM"
 		(shape input)
 		(at 40.64 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1710,6 @@
 	(hierarchical_label "VBUS_F"
 		(shape input)
 		(at 40.64 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1721,6 @@
 	(hierarchical_label "DP"
 		(shape input)
 		(at 40.64 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1754,7 +1732,6 @@
 	(hierarchical_label "RXD"
 		(shape output)
 		(at 166.37 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +1743,6 @@
 	(hierarchical_label "TXD"
 		(shape output)
 		(at 166.37 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3683,7 +3659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "effectiveRangeHat:D_0402_1005Metric"
 			(at 48.26 97.79 0)
 			(effects
 				(font
