@@ -109,7 +109,7 @@
 		(start -5.1997 -3.654001)
 		(end -5.1997 3.661199)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -119,7 +119,7 @@
 		(start -5.1997 3.661199)
 		(end 2.6997 3.661199)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -129,7 +129,7 @@
 		(start 2.6997 -3.654001)
 		(end -5.1997 -3.654001)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -139,7 +139,7 @@
 		(start 2.6997 3.661199)
 		(end 2.6997 -3.654001)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
