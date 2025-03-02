@@ -15,126 +15,6 @@
 		(comment 4 "Design Engineer: Ferenc Janky")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -228,6 +108,145 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2925,12 +2944,6 @@
 		(uuid "81878027-55cd-4692-a614-0f44ca1b6156")
 	)
 	(junction
-		(at 74.93 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93625575-08ef-4138-9f98-85943be19ca0")
-	)
-	(junction
 		(at 34.29 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2947,6 +2960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9cb1464-afc1-4316-bf08-ca2eeb8c9b17")
+	)
+	(junction
+		(at 74.93 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0009b75-8218-47f8-9cf8-24fe11077e52")
 	)
 	(junction
 		(at 77.47 67.31)
@@ -3273,16 +3292,6 @@
 		)
 		(uuid "201d02d4-5929-4146-bbaa-da4c18a7bb7d")
 	)
-	(wire
-		(pts
-			(xy 74.93 31.75) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "210a3702-9f77-47bc-8815-8edf6ee69333")
-	)
 	(bus
 		(pts
 			(xy 247.65 81.28) (xy 247.65 78.74)
@@ -3462,6 +3471,16 @@
 			(type default)
 		)
 		(uuid "395a9040-a7d2-4678-a27e-709f24fecd20")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 87.63 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab8daa1-cdb0-49f6-839d-bcb28677ec42")
 	)
 	(wire
 		(pts
@@ -3733,6 +3752,16 @@
 		)
 		(uuid "679174c1-98aa-41c1-a7f2-7c902a49c026")
 	)
+	(wire
+		(pts
+			(xy 234.95 115.57) (xy 240.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d3e72c-72b9-40ed-b68e-71af5fffc534")
+	)
 	(bus
 		(pts
 			(xy 247.65 73.66) (xy 247.65 71.12)
@@ -3772,16 +3801,6 @@
 			(type default)
 		)
 		(uuid "6e62a7c1-c728-4e53-aa31-ddf31d1d627b")
-	)
-	(wire
-		(pts
-			(xy 78.74 33.02) (xy 78.74 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f34b2bb-83df-45f8-8f8d-6c68d2212c90")
 	)
 	(wire
 		(pts
@@ -3882,6 +3901,16 @@
 			(type default)
 		)
 		(uuid "78cd67c0-c3ac-4e22-8c5d-2e893fad148e")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79994094-bc49-449a-a851-ef8684944c19")
 	)
 	(wire
 		(pts
@@ -4385,6 +4414,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 35.56) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff41017-b4df-4b79-a949-d8a3059eca4b")
+	)
+	(wire
+		(pts
 			(xy 105.41 83.82) (xy 109.22 83.82)
 		)
 		(stroke
@@ -4738,7 +4777,6 @@
 	)
 	(label "PIC_GPIO_RA0"
 		(at 236.22 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4749,7 +4787,6 @@
 	)
 	(label "~{RTC_IRQ}"
 		(at 175.26 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4760,7 +4797,6 @@
 	)
 	(label "PIC_ICSPDAT"
 		(at 248.92 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4771,7 +4807,6 @@
 	)
 	(label "RA0_ICSPDAT"
 		(at 161.29 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4782,7 +4817,6 @@
 	)
 	(label "I2S_CLK"
 		(at 175.26 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4793,7 +4827,6 @@
 	)
 	(label "I2S_FS"
 		(at 234.95 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,7 +4837,6 @@
 	)
 	(label "~{MCLR}_PI"
 		(at 175.26 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4815,7 +4847,6 @@
 	)
 	(label "PI_5V_DIS_OD"
 		(at 139.7 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4826,7 +4857,6 @@
 	)
 	(label "ICSP_~{OE}"
 		(at 248.92 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4837,7 +4867,6 @@
 	)
 	(label "PWR_LED_CTRL"
 		(at 105.41 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4848,7 +4877,6 @@
 	)
 	(label "CHG_DISA"
 		(at 234.95 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4859,7 +4887,6 @@
 	)
 	(label "~{RTC_IRQ}"
 		(at 161.29 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4870,7 +4897,6 @@
 	)
 	(label "D-"
 		(at 30.48 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4881,7 +4907,6 @@
 	)
 	(label "~{MCU_INT}"
 		(at 175.26 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4892,7 +4917,6 @@
 	)
 	(label "SDA"
 		(at 110.49 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4903,7 +4927,6 @@
 	)
 	(label "CC2"
 		(at 85.09 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4914,7 +4937,6 @@
 	)
 	(label "CC1"
 		(at 35.56 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4925,7 +4947,6 @@
 	)
 	(label "SCL_PI"
 		(at 248.92 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4936,7 +4957,6 @@
 	)
 	(label "PIC_ICSPDAT"
 		(at 161.29 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4947,7 +4967,6 @@
 	)
 	(label "D-"
 		(at 124.46 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4958,7 +4977,6 @@
 	)
 	(label "I2S_DOUT"
 		(at 175.26 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4969,7 +4987,6 @@
 	)
 	(label "SPI_EXT{MOSI MISO SCLK CE0 CE1}"
 		(at 215.9 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4980,7 +4997,6 @@
 	)
 	(label "VBAT"
 		(at 105.41 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4991,7 +5007,6 @@
 	)
 	(label "D-"
 		(at 83.82 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5002,7 +5017,6 @@
 	)
 	(label "PROG_EN"
 		(at 226.06 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5013,7 +5027,6 @@
 	)
 	(label "PIC_GPIO_RA1"
 		(at 236.22 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5024,7 +5037,6 @@
 	)
 	(label "PIC_ICSPCLK"
 		(at 248.92 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5035,7 +5047,6 @@
 	)
 	(label "CE_PI"
 		(at 234.95 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5046,7 +5057,6 @@
 	)
 	(label "PIC_GPIO_RA4"
 		(at 236.22 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5057,7 +5067,6 @@
 	)
 	(label "GP26"
 		(at 234.95 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5068,7 +5077,6 @@
 	)
 	(label "SPI_EXT.MOSI"
 		(at 224.79 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5079,7 +5087,6 @@
 	)
 	(label "SCL_PI"
 		(at 226.06 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5097,6 @@
 	)
 	(label "SCL"
 		(at 234.95 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,7 +5107,6 @@
 	)
 	(label "RA1_ICSPCLK"
 		(at 161.29 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +5117,6 @@
 	)
 	(label "RA1_ICSPCLK"
 		(at 248.92 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5123,7 +5127,6 @@
 	)
 	(label "GP4"
 		(at 226.06 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5132,9 +5135,18 @@
 		)
 		(uuid "5356dcea-1b4d-43ab-9a56-4cf81e04892c")
 	)
+	(label "~{MCLR}_PI"
+		(at 234.95 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53c61867-5161-4a69-8855-cf41217b796c")
+	)
 	(label "~{BQ256_INT}"
 		(at 139.7 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5145,7 +5157,6 @@
 	)
 	(label "SCL"
 		(at 139.7 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5156,7 +5167,6 @@
 	)
 	(label "PI_RUN"
 		(at 175.26 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +5177,6 @@
 	)
 	(label "~{MCU_INT}"
 		(at 161.29 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5178,7 +5187,6 @@
 	)
 	(label "PWM1"
 		(at 234.95 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5189,7 +5197,6 @@
 	)
 	(label "SPI_EXT{MOSI MISO SCLK CE0 CE1}"
 		(at 250.19 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5207,6 @@
 	)
 	(label "GP26"
 		(at 175.26 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5211,7 +5217,6 @@
 	)
 	(label "SPI_EXT.CE0"
 		(at 224.79 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5222,7 +5227,6 @@
 	)
 	(label "SPI_EXT.SCLK"
 		(at 93.98 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5233,7 +5237,6 @@
 	)
 	(label "PI_RUN"
 		(at 161.29 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5244,7 +5247,6 @@
 	)
 	(label "PIC_GPIO_RA4"
 		(at 161.29 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5255,7 +5257,6 @@
 	)
 	(label "CHG_DISA"
 		(at 139.7 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5266,7 +5267,6 @@
 	)
 	(label "SCL"
 		(at 248.92 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5277,7 +5277,6 @@
 	)
 	(label "GP5"
 		(at 234.95 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5288,7 +5287,6 @@
 	)
 	(label "ICSP_~{OE}"
 		(at 161.29 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5299,7 +5297,6 @@
 	)
 	(label "~{EXT_IRQ}"
 		(at 234.95 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5307,6 @@
 	)
 	(label "SPI_EXT.MISO"
 		(at 224.79 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5321,7 +5317,6 @@
 	)
 	(label "VBUS"
 		(at 105.41 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,7 +5327,6 @@
 	)
 	(label "SDA_PI"
 		(at 248.92 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5343,7 +5337,6 @@
 	)
 	(label "SDA_PI"
 		(at 226.06 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5354,7 +5347,6 @@
 	)
 	(label "CE_PI"
 		(at 175.26 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5365,7 +5357,6 @@
 	)
 	(label "SPI_EXT.SCLK"
 		(at 224.79 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,7 +5367,6 @@
 	)
 	(label "~{EXT_IRQ}"
 		(at 161.29 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5387,7 +5377,6 @@
 	)
 	(label "PROG_EN"
 		(at 110.49 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5398,7 +5387,6 @@
 	)
 	(label "SPI_EXT{MOSI MISO SCLK CE0 CE1}"
 		(at 85.09 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,7 +5397,6 @@
 	)
 	(label "RXD"
 		(at 175.26 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5420,7 +5407,6 @@
 	)
 	(label "PWM0"
 		(at 234.95 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5431,7 +5417,6 @@
 	)
 	(label "PWM1"
 		(at 226.06 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5442,7 +5427,6 @@
 	)
 	(label "~{BQ_QON}"
 		(at 105.41 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5453,7 +5437,6 @@
 	)
 	(label "PIC_GPIO_RA0"
 		(at 248.92 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5464,7 +5447,6 @@
 	)
 	(label "PIC_GPIO_RA5"
 		(at 161.29 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5475,7 +5457,6 @@
 	)
 	(label "PI_5V_DIS"
 		(at 248.92 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5486,7 +5467,6 @@
 	)
 	(label "PI_5V_DIS"
 		(at 233.68 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5497,7 +5477,6 @@
 	)
 	(label "I2S_FS"
 		(at 175.26 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5508,7 +5487,6 @@
 	)
 	(label "PI_5V_DIS_OD"
 		(at 233.68 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,7 +5497,6 @@
 	)
 	(label "SCL"
 		(at 110.49 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,7 +5507,6 @@
 	)
 	(label "~{BQ256_INT}"
 		(at 161.29 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5517,6 @@
 	)
 	(label "I2S_DIN"
 		(at 234.95 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,7 +5527,6 @@
 	)
 	(label "I2S_DIN"
 		(at 175.26 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5563,7 +5537,6 @@
 	)
 	(label "~{BQ256_INT}"
 		(at 175.26 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5547,6 @@
 	)
 	(label "I2S_DOUT"
 		(at 234.95 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,7 +5557,6 @@
 	)
 	(label "PIC_GPIO_RA1"
 		(at 248.92 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5596,7 +5567,6 @@
 	)
 	(label "PI_5V_DIS"
 		(at 161.29 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,7 +5577,6 @@
 	)
 	(label "D+"
 		(at 83.82 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5618,7 +5587,6 @@
 	)
 	(label "RXD"
 		(at 142.24 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5629,7 +5597,6 @@
 	)
 	(label "SDA"
 		(at 248.92 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5640,7 +5607,6 @@
 	)
 	(label "VBAT"
 		(at 111.76 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5651,7 +5617,6 @@
 	)
 	(label "PWM0"
 		(at 226.06 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5662,7 +5627,6 @@
 	)
 	(label "D+"
 		(at 30.48 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5673,7 +5637,6 @@
 	)
 	(label "~{EXT_IRQ}"
 		(at 175.26 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5684,7 +5647,6 @@
 	)
 	(label "CHG_DISA"
 		(at 161.29 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,7 +5657,6 @@
 	)
 	(label "GP4"
 		(at 234.95 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5667,6 @@
 	)
 	(label "RA0_ICSPDAT"
 		(at 248.92 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,7 +5677,6 @@
 	)
 	(label "D+"
 		(at 124.46 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5728,7 +5687,6 @@
 	)
 	(label "I2S_CLK"
 		(at 234.95 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,7 +5697,6 @@
 	)
 	(label "SDA"
 		(at 234.95 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5750,7 +5707,6 @@
 	)
 	(label "PWR_LED_CTRL"
 		(at 161.29 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5761,7 +5717,6 @@
 	)
 	(label "SDA"
 		(at 139.7 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5772,7 +5727,6 @@
 	)
 	(label "GP5"
 		(at 226.06 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5783,7 +5737,6 @@
 	)
 	(label "~{MCLR}_PI"
 		(at 110.49 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5794,7 +5747,6 @@
 	)
 	(label "PIC_ICSPCLK"
 		(at 161.29 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5805,7 +5757,6 @@
 	)
 	(label "~{BQ_QON}"
 		(at 161.29 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5816,7 +5767,6 @@
 	)
 	(label "SPI_EXT.MOSI"
 		(at 93.98 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5827,7 +5777,6 @@
 	)
 	(label "TXD"
 		(at 175.26 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5838,7 +5787,6 @@
 	)
 	(label "TXD"
 		(at 142.24 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5849,7 +5797,6 @@
 	)
 	(label "SPI_EXT.CE1"
 		(at 224.79 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5860,7 +5807,6 @@
 	)
 	(label "PIC_GPIO_RA5"
 		(at 236.22 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6100,100 +6046,6 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 69.85 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3e0bda8f-55a5-4a2c-8b40-8d37fe694fe9")
-		(property "Reference" "J8"
-			(at 68.58 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS_EXT"
-			(at 68.58 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300111121"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300111121/4846821?s=N4IgTCBcDaIGwEYDMAGFCMLAkBdAvkA"
-			(at 69.85 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b80fdaf-951b-4acf-bf2c-87432edcd4e7")
-		)
-		(instances
-			(project ""
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6867,99 +6719,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 83.82 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a950241e-f3cf-4066-8843-8f606d7de98c")
-		(property "Reference" "J9"
-			(at 85.09 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND_EXT"
-			(at 85.09 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300111121"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierLink" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300111121/4846821?s=N4IgTCBcDaIGwEYDMAGFCMLAkBdAvkA"
-			(at 83.82 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "276114d8-150f-4ddc-ac57-9978582f17a9")
-		)
-		(instances
-			(project "effectiveRangeHat_simple"
-				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 26.67 40.64 0)
 		(unit 1)
@@ -7159,6 +6918,103 @@
 			(project "effectiveRangeHat_simple"
 				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 92.71 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c2d7ccee-f928-4b03-8bd9-b415f02f5919")
+		(property "Reference" "J8"
+			(at 95.25 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS_EXT"
+			(at 95.25 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "effectiveRangeHat:CONN02_533750210_MOL"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "533750210"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/molex/0533750210/2405348"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f32ce2fd-28fc-40ee-86c5-bd11e10b524f")
+		)
+		(pin "1"
+			(uuid "fc90d8da-1ae5-4dae-9fc2-af7ebf288375")
+		)
+		(instances
+			(project ""
+				(path "/6edc5e63-ec2a-49cc-8eeb-48e0d5e90dc6"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 33.02 0)
+		(at 87.63 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7694,7 +7550,7 @@
 		(fields_autoplaced yes)
 		(uuid "dea1f6ff-eb99-4a48-b5a2-7050914baf46")
 		(property "Reference" "#PWR070"
-			(at 78.74 39.37 0)
+			(at 87.63 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 37.465 0)
+			(at 87.63 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 33.02 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 33.02 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 33.02 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,6 +7985,16 @@
 				(justify left)
 			)
 			(uuid "af593e5b-5d6b-45d5-b437-4507a060bb6c")
+		)
+		(pin "~{MCLR_PI}" input
+			(at 240.03 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd721bce-49ed-4ae2-9c2f-8511622f9f98")
 		)
 		(instances
 			(project "effectiveRangeHat_simple"

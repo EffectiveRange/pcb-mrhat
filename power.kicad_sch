@@ -3036,12 +3036,6 @@
 		(uuid "6eae9697-641e-4f5f-a24f-1945131a4cb5")
 	)
 	(junction
-		(at 99.06 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77dfe94d-e856-464c-a9bc-b7c444aa9455")
-	)
-	(junction
 		(at 256.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3058,6 +3052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eec1bf8-18fa-4415-aa8e-f60e6825921c")
+	)
+	(junction
+		(at 119.38 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b270793d-42e7-4b84-858e-6062434682c6")
 	)
 	(junction
 		(at 168.91 133.35)
@@ -3653,16 +3653,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 99.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54112c9c-79bc-48b2-85f9-5f9b5b3703d5")
-	)
-	(wire
-		(pts
 			(xy 231.14 138.43) (xy 231.14 152.4)
 		)
 		(stroke
@@ -3823,16 +3813,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa2e018-6d1a-476d-a3c1-ee3a06bb5b57")
-	)
-	(wire
-		(pts
 			(xy 64.77 121.92) (xy 64.77 124.46)
 		)
 		(stroke
@@ -3980,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "7e401594-a3cc-4695-a8bc-44e3ceaaebb2")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8f349b-01f5-47a5-85b3-9eb8cd21dbee")
 	)
 	(wire
 		(pts
@@ -4413,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 125.73 95.25)
+			(xy 99.06 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4450,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "d21cd53b-85e0-42e1-9725-6eafd4323ca6")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d348dd08-96ba-4981-8e1a-ace878def871")
 	)
 	(wire
 		(pts
@@ -4751,6 +4751,16 @@
 		)
 		(uuid "fcd8b723-043e-4309-8167-05e3310bc6fc")
 	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb4a954-e253-47df-9c84-666418667388")
+	)
 	(rectangle
 		(start 13.716 12.446)
 		(end 128.016 40.894)
@@ -4985,7 +4995,6 @@
 	)
 	(label "SYSLOAD"
 		(at 243.84 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4996,7 +5005,6 @@
 	)
 	(label "REGN"
 		(at 97.79 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5007,7 +5015,6 @@
 	)
 	(label "SYS5V"
 		(at 78.74 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5018,7 +5025,6 @@
 	)
 	(label "STAT_LED"
 		(at 78.74 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5029,7 +5035,6 @@
 	)
 	(label "TS_BIAS"
 		(at 101.6 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5040,7 +5045,6 @@
 	)
 	(label "ILIM"
 		(at 66.04 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5051,7 +5055,6 @@
 	)
 	(label "TS_BYPASS"
 		(at 107.95 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5062,7 +5065,6 @@
 	)
 	(label "~{PG}_LED"
 		(at 66.04 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5073,7 +5075,6 @@
 	)
 	(label "L2"
 		(at 194.31 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5084,7 +5085,6 @@
 	)
 	(label "BTST"
 		(at 104.14 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5095,7 +5095,6 @@
 	)
 	(label "BAT"
 		(at 101.6 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5105,8 +5104,7 @@
 		(uuid "34e9ac51-ca99-417b-9d7b-26bf0dd61bf3")
 	)
 	(label "SYS5V"
-		(at 119.38 100.33 0)
-		(fields_autoplaced yes)
+		(at 99.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5117,7 +5115,6 @@
 	)
 	(label "VREF"
 		(at 26.67 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5128,7 +5125,6 @@
 	)
 	(label "LDO_PG"
 		(at 245.11 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5139,7 +5135,6 @@
 	)
 	(label "SYS5V"
 		(at 167.64 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5150,7 +5145,6 @@
 	)
 	(label "BQ_VBUS"
 		(at 66.04 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5161,7 +5155,6 @@
 	)
 	(label "PWR_LED_CAT"
 		(at 115.57 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5172,7 +5165,6 @@
 	)
 	(label "STAT"
 		(at 78.74 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5183,7 +5175,6 @@
 	)
 	(label "SYSLOAD"
 		(at 134.62 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5194,7 +5185,6 @@
 	)
 	(label "TS"
 		(at 127 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5195,6 @@
 	)
 	(label "~{QON}"
 		(at 101.6 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5216,7 +5205,6 @@
 	)
 	(label "BQ_VBUS"
 		(at 100.33 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,7 +5215,6 @@
 	)
 	(label "SYSLOAD"
 		(at 101.6 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5238,7 +5225,6 @@
 	)
 	(label "PMID"
 		(at 36.83 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5249,7 +5235,6 @@
 	)
 	(label "SYSLOAD"
 		(at 234.95 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,7 +5245,6 @@
 	)
 	(label "~{PG}"
 		(at 66.04 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5271,7 +5255,6 @@
 	)
 	(label "TS"
 		(at 101.6 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5282,7 +5265,6 @@
 	)
 	(label "5VEN"
 		(at 196.85 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5293,7 +5275,6 @@
 	)
 	(label "STAT"
 		(at 66.04 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5304,7 +5285,6 @@
 	)
 	(label "TS_BIAS"
 		(at 133.35 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5315,7 +5295,6 @@
 	)
 	(label "ILIM"
 		(at 22.86 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5326,7 +5305,6 @@
 	)
 	(label "VREF"
 		(at 46.99 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5337,7 +5315,6 @@
 	)
 	(label "5VPG"
 		(at 234.95 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5348,7 +5325,6 @@
 	)
 	(label "SYSLOAD"
 		(at 201.93 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5359,7 +5335,6 @@
 	)
 	(label "SW"
 		(at 99.06 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5370,7 +5345,6 @@
 	)
 	(label "VBUS"
 		(at 80.01 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5381,7 +5355,6 @@
 	)
 	(label "VREF"
 		(at 57.15 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5392,7 +5365,6 @@
 	)
 	(label "BAT"
 		(at 48.26 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5403,7 +5375,6 @@
 	)
 	(label "SYS5V"
 		(at 257.81 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5414,7 +5385,6 @@
 	)
 	(label "5VLED"
 		(at 269.24 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5425,7 +5395,6 @@
 	)
 	(label "~{PG}"
 		(at 66.04 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5436,7 +5405,6 @@
 	)
 	(label "SYS5V"
 		(at 66.04 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5447,7 +5415,6 @@
 	)
 	(label "PMID"
 		(at 66.04 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5458,7 +5425,6 @@
 	)
 	(label "TS"
 		(at 45.72 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5470,7 +5436,6 @@
 	(hierarchical_label "~{BQ_QON}"
 		(shape output)
 		(at 125.73 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,7 +5447,6 @@
 	(hierarchical_label "PI_5V_DIS_OD"
 		(shape input)
 		(at 180.34 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5494,7 +5458,6 @@
 	(hierarchical_label "PWR_LED_CTRL"
 		(shape input)
 		(at 116.84 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5506,7 +5469,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 67.31 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5518,7 +5480,6 @@
 	(hierarchical_label "~{INT}"
 		(shape output)
 		(at 40.64 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,7 +5491,6 @@
 	(hierarchical_label "CHG_DISA"
 		(shape input)
 		(at 67.31 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5542,7 +5502,6 @@
 	(hierarchical_label "VREF"
 		(shape input)
 		(at 24.13 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5554,7 +5513,6 @@
 	(hierarchical_label "PI_5V"
 		(shape output)
 		(at 220.98 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5566,7 +5524,6 @@
 	(hierarchical_label "VBUS_F"
 		(shape output)
 		(at 118.11 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5578,7 +5535,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 36.83 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5590,7 +5546,6 @@
 	(hierarchical_label "SYS5V"
 		(shape output)
 		(at 269.24 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,7 +5557,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 67.31 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5614,7 +5568,6 @@
 	(hierarchical_label "VBAT"
 		(shape output)
 		(at 44.45 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8715,7 +8668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -8742,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61300421121"
+		(property "MPN" "DF11-4DP-2DSA(08)"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -8751,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Hirose Electric Co Ltd"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -8760,7 +8713,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierLink" "https://www.digikey.hu/en/products/detail/w%C3%BCrth-elektronik/61300421121/4846829"
+		(property "SupplierLink" "https://eu.mouser.com/ProductDetail/Hirose-Connector/DF11-4DP-2DSA08?qs=Ux3WWAnHpjDPTWEXT%2FLWvg%3D%3D&utm_id=6470817810&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQiA_Yq-BhC9ARIsAA6fbAgTsAei4DpP3br8qNNzYN_Dkzz6xPuYT9pN7YQk0zNSuUX4IH3RYHEaAunPEALw_wcB"
 			(at 107.95 106.68 0)
 			(effects
 				(font
@@ -12226,7 +12179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "effectiveRangeHat:CONN03_533750310_MOL"
 			(at 45.72 128.27 0)
 			(effects
 				(font
@@ -12253,7 +12206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B3B-XH-A"
+		(property "MPN" "533750310"
 			(at 45.72 128.27 0)
 			(effects
 				(font
@@ -12262,8 +12215,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America Inc."
+		(property "Manufacturer" "Molex"
 			(at 45.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierLink" "https://eu.mouser.com/ProductDetail/Molex/53375-0310?qs=kD7lmHUVEJbTZwckk9uvMw%3D%3D&utm_source=OEMSecrets&utm_medium=aggregator&utm_campaign=533750310&utm_term=533750310&utm_content=Molex&_gl=1*a7gvlm*_ga*dW5kZWZpbmVk*_ga_15W4STQT4T*dW5kZWZpbmVk*_ga_1KQLCYKRX3*dW5kZWZpbmVk"
+			(at 45.72 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
